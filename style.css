@@ -1,5 +1,5 @@
   :root{
-    --bg:#CBD8DC; --card:#FFFFFF; --navy:#3A4A5F; --heading:#2C3A4A;
+    --bg:#DDDDD0; --card:#FFFFFF; --navy:#3A4A5F; --heading:#2C3A4A;
     --muted:#5B6670; --cyan:#2E8B57; --cyan-deep:#20663F; --line:#B9C6CB; --hero:#2E8B57;
     box-sizing:border-box;
     padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
@@ -44,6 +44,7 @@
   details.exp .exp-body p{margin:0.4rem 0;}
   .cards{display:grid; grid-template-columns:repeat(2,1fr); gap:1.2rem; max-width:800px; margin:0 auto;}
   .card{background:var(--card); border-radius:8px; padding:1.3rem 1.4rem; box-shadow:0 1px 3px rgba(0,0,0,0.08);}
+  a.card:hover{box-shadow:0 4px 14px rgba(0,0,0,0.14);}
   .card h3{margin:0 0 0.2rem; font-size:1.05rem; color:var(--heading);}
   .card .org{color:var(--cyan-deep); font-size:0.88rem; margin:0 0 0.5rem;}
   .card p.desc{margin:0; font-size:0.9rem; color:var(--muted); line-height:1.55;}

@@ -1,5 +1,5 @@
   :root{
-    --bg:#DDDDD0; --card:#FFFFFF; --navy:#3A4A5F; --heading:#2C3A4A;
+    --bg:#DDDDD0; --card:#F7F6EF; --navy:#3A4A5F; --heading:#2C3A4A;
     --muted:#5B6670; --cyan:#2E8B57; --cyan-deep:#20663F; --line:#B9C6CB; --hero:#2E8B57;
     box-sizing:border-box;
     padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);

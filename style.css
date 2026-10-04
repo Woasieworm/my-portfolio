@@ -26,13 +26,14 @@
   .wrap{max-width:1000px; margin:0 auto; padding:3.5rem 1.5rem;}
   h2.section{text-align:center; color:var(--heading); font-size:1.5rem; margin:0 0 2rem;}
   .summary{max-width:70ch; margin:0 auto; text-align:justify; color:var(--heading); font-size:1.02rem; line-height:1.7;}
-  details.exp{background:var(--navy); color:#fff; border-radius:8px; margin-bottom:0.8rem; overflow:hidden;}
-  details.exp summary{list-style:none; cursor:pointer; padding:1rem 1.3rem; display:flex; justify-content:space-between; align-items:center; font-size:1.02rem;}
+  details.exp{border-radius:8px; margin-bottom:0.8rem; overflow:hidden;}
+  details.exp summary{list-style:none; cursor:pointer; padding:1rem 1.3rem; display:flex; justify-content:space-between; align-items:center; font-size:1.02rem; background:var(--navy); color:#fff;}
   details.exp summary::-webkit-details-marker{display:none}
   details.exp summary::after{content:"\25BE"; transition:transform 0.2s; opacity:0.8;}
   details.exp[open] summary::after{transform:rotate(180deg);}
-  details.exp .exp-body{padding:0 1.3rem 1.2rem; font-size:0.95rem; opacity:0.95; line-height:1.6;}
+  details.exp .exp-body{padding:1.1rem 1.3rem 1.2rem; font-size:0.95rem; line-height:1.6; background:var(--card); color:var(--heading);}
   details.exp .exp-body p{margin:0.4rem 0;}
+  details.exp .exp-body strong{color:var(--cyan-deep);}
   .cards{display:grid; grid-template-columns:repeat(2,1fr); gap:1.2rem; max-width:800px; margin:0 auto;}
   .card{background:var(--card); border-radius:8px; padding:1.3rem 1.4rem; box-shadow:0 1px 3px rgba(0,0,0,0.08);}
   a.card:hover{box-shadow:0 4px 14px rgba(0,0,0,0.14);}
